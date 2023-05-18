@@ -1,5 +1,4 @@
-function threeSum(arr, target) {
-// write your code here
+function decimalToBinary(decimal) {
   if (decimal === 0) {
     return '0'; // Special case for decimal 0
   }
