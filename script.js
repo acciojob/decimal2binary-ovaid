@@ -1,16 +1,5 @@
-function decimalToBinary(decimal) {
-  if (decimal === 0) {
-    return '0'; // Special case for decimal 0
-  }
-
-  let binary = '';
-  while (decimal > 0) {
-    const remainder = decimal % 2;
-    binary += remainder;
-    decimal = Math.floor(decimal / 2);
-  }
-
-  return binary.split('').reverse().join('');
+function decimalToBinary(num) {
+  // Write your code here
 }
 
-module.exports = threeSum;
+window.decimalToBinary = decimalToBinary;
